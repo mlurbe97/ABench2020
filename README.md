@@ -1,12 +1,12 @@
 
-# ABench2020: A WCET Benchmark Suite in Ada Programming Language
+# ABench2020
 
-ABench2020 is a benchmark suite written in Ada programming languge and aimed to help WCET research. It is a collection of programs which can be used to compare real-time platforms, WCET tools and techniques. All programs in the benchmark suite is open source and licensed under the MIT license.
+ABench2020 is a worst-case execution time (WCET) benchmark suite written in Ada programming languge. Its main aim is to help WCET research from Ada programming language perspective. It is a collection of programs which can be used to compare real-time platforms, WCET tools and techniques. All programs in the benchmark suite is open source.
 
 
 ## Citing ABench2020
 
-The paper of ABench2020 can be accessed through the link below.
+The paper of ABench2020 titled "ABench2020: A WCET Benchmark Suite In Ada Programming Language" can be accessed through the link below.
 
 https://www.acperpro.com/document/ISITES2020ID99
 
