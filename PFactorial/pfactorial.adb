@@ -59,12 +59,13 @@ procedure PFactorial is
     Thread2_Value   : Long_Integer := 1;
 
 begin
+    -- loop
     Task1.Start (1, External_Value / 2);
     Task2.Start (External_Value / 2 + 1 , External_Value);
     Task1.Report (Thread1_Value);
     Task2.Report (Thread2_Value);
     Factorial_Value := Thread1_Value * Thread2_Value;
-    
+    -- end loop;
     -- Uncomment the line below to print the result.
     -- Put_Line (Long_Integer'Image (Factorial_Value));
 

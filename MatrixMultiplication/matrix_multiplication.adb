@@ -63,9 +63,9 @@ procedure Matrix_Multiplication is
     Third_Matrix : MMatrix (1 .. 10, 1 .. 10);
 
 begin
-
-    Multiply (First_Matrix, Second_Matrix, Third_Matrix);
-
+    loop
+        Multiply (First_Matrix, Second_Matrix, Third_Matrix);
+    end loop;
     -- Uncomment the lines below to print the result.
     -- for I in 1 .. Third_Matrix'Last (1) loop
     --     for J in 1 .. Third_Matrix'Last (2) loop

@@ -57,8 +57,8 @@ procedure Linear_Search is
         333, 338, 350, 399, 442, 475, 567);
 
 begin
-    
-    Search_Value := 250;
-    Search (Search_Array, Search_Value);
-
+    loop
+        Search_Value := 250;
+        Search (Search_Array, Search_Value);
+    end loop;
 end;

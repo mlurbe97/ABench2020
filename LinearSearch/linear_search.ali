@@ -1,0 +1,26 @@
+V "GNAT Lib v8"
+M P W=b
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U linear_search%b	linear_search.adb	cb7a63ee NE OO SU
+
+D linear_search.adb	20211117154951 cb7a63ee linear_search%b
+D system.ads		20200304083000 4635ec04 system%s
+X 1 linear_search.adb
+15U11*Linear_Search 15b11 64t4
+17A10 Vector(integer)<integer> 20r38 36r27 55r20
+20U15 Search 20b15 20>23 20>46 52t8 62s9
+20a23 Search_Array{17A10} 25r23 26r16 39r27 40r20
+20i46 Search_Value{integer} 26r35 40r39
+21i9 Count{integer} 27m17 27r26 31r12 36r40
+22i9 Index{integer} 41m21 41r30 42r34
+25i13 I{integer} 26r30
+36a13 Index_Array{17A10} 42m21
+39i17 I{integer} 40r34 42r44
+54i5 Search_Value{integer} 61m9 62r31
+55a5 Search_Array{17A10} 62r17
+

@@ -39,8 +39,12 @@ procedure Selection_Sort is
         87, 23, 37, 12, 3, 6, 89, 7);
 
 begin
-    Sort (Sort_Array);
-
+    loop
+        Sort (Sort_Array);
+        Sort_Array := (1, 9, 5, 31, 25, 46, 98, 17, 21, 82, 2, 33, 64, 73,
+        56, 567, 5, 45, 445, 4, 76, 22, 34, 45, 56, 888, 66, 89, 9, 32, 46, 78,
+        87, 23, 37, 12, 3, 6, 89, 7);
+    end loop;
     -- Uncomment the lines below to print the result.
     -- Put_Line("Sorted Array:");
     -- for I in Sort_Array'Range loop

@@ -1,0 +1,35 @@
+V "GNAT Lib v8"
+M P W=b
+P SS ZX
+
+RN
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV SPARK_05
+
+U fibonacci%b		fibonacci.adb		de9bc360 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.val_int%s	s-valint.adb		s-valint.ali
+
+D ada.ads		20200304083000 76789da1 ada%s
+D a-comlin.ads		20200304083000 4aa66568 ada.command_line%s
+D fibonacci.adb		20211117154908 943da608 fibonacci%b
+D system.ads		20200304083000 4635ec04 system%s
+D s-parame.ads		20200304083000 f896c45c system.parameters%s
+D s-secsta.ads		20200304083000 283dec34 system.secondary_stack%s
+D s-stoele.ads		20200304083000 2dc34a04 system.storage_elements%s
+D s-valint.ads		20200304083000 48a52a3f system.val_int%s
+X 1 ada.ads
+16K9*Ada 20e8 3|14r6 14r28 29r50
+X 2 a-comlin.ads
+36K13*Command_Line 144e21 3|14w10 14r32 29r54
+52V13*Argument{string} 3|29s67
+X 3 fibonacci.adb
+17U11*Fibonacci 17b11 39l5 39t14
+19V14 Calculate_Fibonacci{positive} 19b14 19>35 24s20 24s60 26t8 34s19
+19i35 Index_Value{positive} 21r12 24r41 24r81
+29i5 External_Value{positive} 34r40
+30i5 Result{positive} 34m9
+

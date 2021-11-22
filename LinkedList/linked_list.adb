@@ -50,11 +50,11 @@ procedure Linked_List is
         333, 338, 350, 399, 442, 475, 567);
 
 begin
-    
-    for I in Frame_Array'Range loop
-        Create_List (Frame_Array (I));
+    loop
+        for I in Frame_Array'Range loop
+            Create_List (Frame_Array (I));
+        end loop;
     end loop;
-
     -- Uncomment the lines below to print the result.
     -- declare
     --    Print_Frame   : Frame_Pointer;

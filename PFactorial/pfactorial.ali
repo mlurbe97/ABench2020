@@ -1,0 +1,102 @@
+V "GNAT Lib v8"
+M P W=b
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+RV MAX_TASK_ENTRIES=2
+RV MAX_TASKS=1+
+
+U pfactorial%b		pfactorial.adb		e973d509 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+Z ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z system%s		system.ads		system.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+Z system.val_lli%s	s-vallli.adb		s-vallli.ali
+
+D ada.ads		20200304083000 76789da1 ada%s
+D a-comlin.ads		20200304083000 4aa66568 ada.command_line%s
+D a-except.ads		20200304083000 291912d5 ada.exceptions%s
+D a-finali.ads		20200304083000 bf4f806b ada.finalization%s
+D a-reatim.ads		20200304083000 a87e2da7 ada.real_time%s
+D a-stream.ads		20200304083000 119b8fb3 ada.streams%s
+D a-tags.ads		20200304083000 491b781d ada.tags%s
+D a-unccon.ads		20200304083000 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200304083000 5ab55268 interfaces%s
+D i-c.ads		20200304083000 5421119b interfaces.c%s
+D pfactorial.adb	20211117155353 a3d5b061 pfactorial%b
+D system.ads		20200304083000 4635ec04 system%s
+D s-atacco.ads		20200304083000 4c36d12f system.address_to_access_conversions%s
+D s-exctab.ads		20200304083000 54135002 system.exception_table%s
+D s-finroo.ads		20200304083000 4ff27390 system.finalization_root%s
+D s-linux.ads		20200304083000 2fda6ad1 system.linux%s
+D s-multip.ads		20200304083000 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20200310122954 2a880dab system.os_constants%s
+D s-osinte.ads		20200304083000 c6986a0c system.os_interface%s
+D s-parame.ads		20200304083000 f896c45c system.parameters%s
+D s-secsta.ads		20200304083000 283dec34 system.secondary_stack%s
+D s-soflin.ads		20200304083000 a7318a92 system.soft_links%s
+D s-stache.ads		20200304083000 a37c21ec system.stack_checking%s
+D s-stausa.ads		20200304083000 017a0a05 system.stack_usage%s
+D s-stalib.ads		20200304083000 09bd3940 system.standard_library%s
+D s-stoele.ads		20200304083000 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20200304083000 2b3f8252 system.task_info%s
+D s-taspri.ads		20200304083000 f40ac08d system.task_primitives%s
+D s-taprop.ads		20200304083000 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20200304083000 1d8c1ccb system.tasking%s
+D s-taprob.ads		20200304083000 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20200304083000 60ad3dae system.tasking.protected_objects.entries%s
+D s-tasren.ads		20200304083000 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20200304083000 cca55c94 system.tasking.stages%s
+D s-traent.ads		20200304083000 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200304083000 34867c83 system.unsigned_types%s
+D s-vallli.ads		20200304083000 9a24e6a0 system.val_lli%s
+X 1 ada.ads
+16K9*Ada 20e8 11|14r6 14r28 56r59
+X 2 a-comlin.ads
+36K13*Command_Line 144e21 11|14w10 14r32 56r63
+52V13*Argument{string} 11|56s76
+X 11 pfactorial.adb
+17U11*PFactorial 17b11 72t4
+20V14 Calculate_Factorial{long_integer} 20b14 20>35 20>63 28t8 46s31
+20i35 Start_Value{long_integer} 23r37
+20i63 End_Value{long_integer} 23r52
+21i9 Result{long_integer} 24m13 24r23 27r17
+23i13 I{long_integer} 24r32
+31T15 Factorial_Task 34l9 34e23 37b15 50t8 53r13 54r13
+32Y13 Start 32>20 32>51 42b16 45l13 45t18 63s11 64s11
+32i20 Start_Value{long_integer} 43r34
+32i51 End_Value{long_integer} 44r32
+33Y13 Report 33<21 47b16 49l13 49t19 65s11 66s11
+33i21 Result_Value{long_integer} 48m13 48r13
+38i9 Local_Start_Value{long_integer} 43m13 46r52
+39i9 Local_End_Value{long_integer} 44m13 46r71
+40i9 Local_Result_Value{long_integer} 46m9 48r29
+42i23 Start_Value{long_integer}
+42i54 End_Value{long_integer}
+47i24 Result_Value{long_integer}
+53t5 Task1{31T15} 63r5 65r5
+54t5 Task2{31T15} 64r5 66r5
+56i5 External_Value{long_integer} 63r21 64r18 64r43
+57i5 Factorial_Value{long_integer} 67m5
+58i5 Thread1_Value{long_integer} 65m19 67r24
+59i5 Thread2_Value{long_integer} 66m19 67r40
+X 24 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+

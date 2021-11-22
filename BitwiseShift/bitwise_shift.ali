@@ -1,0 +1,31 @@
+V "GNAT Lib v8"
+M P W=b
+P ZX
+
+RN
+RV SPARK_05
+
+U bitwise_shift%b	bitwise_shift.adb	d0e60574 NE OO SU
+W interfaces%s		interfac.ads		interfac.ali
+
+D bitwise_shift.adb	20211117154459 8a53571c bitwise_shift%b
+D interfac.ads		20200304083000 5ab55268 interfaces%s
+D system.ads		20200304083000 4635ec04 system%s
+X 1 bitwise_shift.adb
+16U11*Bitwise_Shift 16b11 44t4
+19V14 S_Right{2|74M9} 19b14 19>23 19>44 24t8 38s21
+19m23 Value{2|74M9} 22r32
+19i44 Shift_Amount{natural} 22r39
+20m9 Result{2|74M9} 22m9 23r16
+26V14 S_Left{2|74M9} 26b14 26>22 26>43 31t8 39s21
+26m22 Value{2|74M9} 29r31
+26i43 Shift_Amount{natural} 29r38
+27m9 Result{2|74M9} 29m9 30r16
+33m5 Result_1{2|74M9} 38m9
+34m5 Result_2{2|74M9} 39m9
+X 2 interfac.ads
+38K9*Interfaces 1|13w6 13r23 2|184e15
+74M9*Unsigned_32 1|19r31 19r75 20r18 26r30 26r74 27r18 33r16 34r16
+121V13*Shift_Left{74M9} 1|29s19
+125V13*Shift_Right{74M9} 1|22s19
+

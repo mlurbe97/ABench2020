@@ -1,0 +1,33 @@
+V "GNAT Lib v8"
+M P W=b
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+
+U linked_list%b		linked_list.adb		8dbf2b72 NE OO SU
+
+D linked_list.adb	20211117155051 8dbf2b72 linked_list%b
+D system.ads		20200304083000 4635ec04 system%s
+X 1 linked_list.adb
+15U11*Linked_List 15b11 70t4
+17A10 Vector(integer)<integer> 48r19
+19R10 Frame 20r34 22c10 25e15 36r27
+20P10 Frame_Pointer(19R10) 24r24 27r21 28r21 29r21
+23i9 Frame_Number{integer} 37m20
+24p9 Next{20P10} 38m20 42m27
+27p5 Head{20P10} 39r12 40m13
+28p5 Free_Frame{20P10} 36m9 37r9 38r9 40r21 42r35 44r26
+29p5 Current_Frame{20P10} 42r13 44m9
+31U15 Create_List 31b15 31>28 46t8 55s13
+31i28 Number{integer} 37r36
+32i9 Count{integer}
+33i9 Index{integer}
+48a5 Frame_Array{17A10} 54r18 55r26
+54i13 I{integer} 55r39
+

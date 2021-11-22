@@ -30,9 +30,9 @@ procedure Fibonacci is
     Result         : Positive; 
 
 begin
-
-    Result := Calculate_Fibonacci (External_Value);
-
+    loop
+        Result := Calculate_Fibonacci (External_Value);
+    end loop;
     -- Uncomment the line below to print the result.
     -- Put_Line (Integer'Image (Result));
 

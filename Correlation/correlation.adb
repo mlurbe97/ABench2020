@@ -52,8 +52,9 @@ procedure Correlation is
     Sample_Y : Float_Array := (25.0, 12.1, 27.0, 31.0, 32.0, 1.1, 6.5, 23.0, 
         4.4, 6.2);
 begin
-    Result := Calc_Coefficient (Sample_X, Sample_Y);
-
+    loop
+        Result := Calc_Coefficient (Sample_X, Sample_Y);
+    end loop;
     -- Uncomment the line below to print the result.
     -- Put_Line (Float'Image (Result));
 end;

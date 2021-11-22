@@ -1,0 +1,53 @@
+V "GNAT Lib v8"
+M P W=b
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV SPARK_05
+
+U correlation%b		correlation.adb		7837c49a NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+
+D ada.ads		20200304083000 76789da1 ada%s
+D a-numeri.ads		20200304083000 bb51c45a ada.numerics%s
+D a-nuelfu.ads		20200304083000 03e83d1c ada.numerics.elementary_functions%s
+D a-ngelfu.ads		20200304083000 cb378f71 ada.numerics.generic_elementary_functions%s
+D a-unccon.ads		20200304083000 0e9b276f ada.unchecked_conversion%s
+D correlation.adb	20211117154622 7bdff986 correlation%b
+D system.ads		20200304083000 4635ec04 system%s
+D s-exctab.ads		20200304083000 54135002 system.exception_table%s
+D s-stalib.ads		20200304083000 09bd3940 system.standard_library%s
+X 1 ada.ads
+16K9*Ada 20e8 6|13r6 13r46
+X 2 a-numeri.ads
+16K13*Numerics 32e17 6|13r10 13r50
+X 3 a-nuelfu.ads
+18K22*Elementary_Functions[4|39] 6|13w19 13r59
+X 4 a-ngelfu.ads
+52V13*Sqrt{float} 6|45s33[3|18]
+X 6 correlation.adb
+16U11*Correlation 16b11 60t4
+18A10 Float_Array(float)<integer> 20r56 50r16 52r16
+20V14 Calc_Coefficient{float} 20b14 20>32 20>42 47t8 56s19
+20a32 Sample_X{18A10} 26r18 26r34 27r30 29r32 36r18 36r34 37r34 40r18 40r34
+. 41r46 41r71
+20a42 Sample_Y{18A10} 31r18 31r34 32r30 34r32 37r59 42r46 42r71
+21f9 Coefficient{float} 45m9 46r16
+22f9 Sum_X{float} 27m13 27r22 29r18
+22f16 Sum_Y{float} 32m13 32r22 34r18
+22f23 Sum_XY{float} 37m13 37r23 45r24
+23f9 Square_Sum_X{float} 41m13 41r29 45r39
+23f23 Square_Sum_Y{float} 42m13 42r29 45r54
+24f9 Avg_X{float} 29m9 37r49 41r61 41r86
+24f16 Avg_Y{float} 34m9 37r74 42r61 42r86
+26i13 I{integer} 27r40
+31i13 I{integer} 32r40
+36i13 I{integer} 37r44 37r69
+40i13 I{integer} 41r56 41r81 42r56 42r81
+49f5 Result{float} 56m9
+50a5 Sample_X{18A10} 56r37
+52a5 Sample_Y{18A10} 56r47
+

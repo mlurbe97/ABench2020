@@ -34,9 +34,10 @@ procedure Softmax is
     Sample : Vector := (1, 5, 3, 7, 4, 10, 4, 9, 4, 1, 9, 12, 3, 8, 5);
 
 begin
-    
-    Calculate_Softmax (Sample);
-
+    loop
+        Calculate_Softmax (Sample);
+        Sample := (1, 5, 3, 7, 4, 10, 4, 9, 4, 1, 9, 12, 3, 8, 5);
+    end loop;
     -- Uncomment the lines below to print the result.
     -- for I in Sample'Range loop
     --     Put (Float'Image (Result (I)) & " ");

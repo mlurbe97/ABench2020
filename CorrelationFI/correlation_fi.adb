@@ -96,9 +96,10 @@ procedure Correlation_FI is
 
     Result : Float;
 begin
-    Read_File;
-    Result := Calc_Coefficient (Sample_X, Sample_Y);
-
+    loop
+        Read_File;
+        Result := Calc_Coefficient (Sample_X, Sample_Y);
+    end loop;
     -- Uncomment the line below to print the result.
     -- Put_Line (Float'Image (Result));
 end;

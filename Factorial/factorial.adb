@@ -30,8 +30,9 @@ procedure Factorial is
     Result         : Long_Integer; 
 
 begin
-    Result := Calculate_Factorial (1, External_Value);
-   
+    loop
+        Result := Calculate_Factorial (1, External_Value);
+    end loop;
     -- Uncomment the line below to print the result.
     -- Put_Line (Integer'Image (Result));
 end;

@@ -34,9 +34,10 @@ procedure Bitwise_Shift is
     Result_2 : Unsigned_32;
 
 begin
-    Result_1 := S_Right (100, 7);
-    Result_2 := S_Left (50, 9);
-
+    loop
+        Result_1 := S_Right (100, 7);
+        Result_2 := S_Left (50, 9);
+    end loop;
     -- Uncomment the lines below to print the results.
     -- Put (Unsigned_32'Image (Result_1));
     -- Put (Unsigned_32'Image (Result_2));

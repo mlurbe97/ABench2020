@@ -1,0 +1,22 @@
+V "GNAT Lib v8"
+M P W=b
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U selection_sort%b	selection_sort.adb	7e08ce94 NE OO SU
+
+D selection_sort.adb	20211117155602 7e08ce94 selection_sort%b
+D system.ads		20200304083000 4635ec04 system%s
+X 1 selection_sort.adb
+15U11*Selection_Sort 15b11 53t4
+17A10 Vector(integer)<integer> 20r41 37r18
+20U15 Sort 20b15 20=21 34t8 43s9
+20a21 Sort_Array{17A10} 24r23 25r27 26r20 26r37 27r35 28m21 28r39 29m21
+21i9 Temp_Value{integer} 27m21 29r39
+24i13 I{integer} 25r22 26r32 27r47 28r33
+25i17 J{integer} 26r49 28r51 29r33
+37a5 Sort_Array{17A10} 43m15 43r15 44m9
+

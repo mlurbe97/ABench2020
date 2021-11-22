@@ -1,0 +1,118 @@
+V "GNAT Lib v8"
+M P W=b
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U correlation_fi%b	correlation_fi.adb	92a5b89b NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.fixed%s	a-strfix.adb		a-strfix.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.val_real%s	s-valrea.adb		s-valrea.ali
+
+D ada.ads		20200304083000 76789da1 ada%s
+D a-charac.ads		20200304083000 2d3ec45b ada.characters%s
+D a-chlat1.ads		20200304083000 66457d31 ada.characters.latin_1%s
+D a-except.ads		20200304083000 291912d5 ada.exceptions%s
+D a-ioexce.ads		20200304083000 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20200304083000 bb51c45a ada.numerics%s
+D a-nuelfu.ads		20200304083000 03e83d1c ada.numerics.elementary_functions%s
+D a-ngelfu.ads		20200304083000 cb378f71 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20200304083000 119b8fb3 ada.streams%s
+D a-string.ads		20200304083000 90ac6797 ada.strings%s
+D a-strfix.ads		20200304083000 d07c346e ada.strings.fixed%s
+D a-strmap.ads		20200304083000 e8bb714a ada.strings.maps%s
+D a-tags.ads		20200304083000 491b781d ada.tags%s
+D a-textio.ads		20200304083000 881db35a ada.text_io%s
+D a-unccon.ads		20200304083000 0e9b276f ada.unchecked_conversion%s
+D correlation_fi.adb	20211117154726 c92c02b3 correlation_fi%b
+D interfac.ads		20200304083000 5ab55268 interfaces%s
+D i-cstrea.ads		20200304083000 e53d8b8e interfaces.c_streams%s
+D system.ads		20200304083000 4635ec04 system%s
+D s-crtl.ads		20200304083000 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200304083000 54135002 system.exception_table%s
+D s-ficobl.ads		20200304083000 078245e4 system.file_control_block%s
+D s-parame.ads		20200304083000 f896c45c system.parameters%s
+D s-secsta.ads		20200304083000 283dec34 system.secondary_stack%s
+D s-soflin.ads		20200304083000 a7318a92 system.soft_links%s
+D s-stache.ads		20200304083000 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200304083000 09bd3940 system.standard_library%s
+D s-stoele.ads		20200304083000 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200304083000 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200304083000 34867c83 system.unsigned_types%s
+D s-valrea.ads		20200304083000 fe297711 system.val_real%s
+D s-wchcon.ads		20200304083000 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 16|11r6 11r45 12r6 12r45 13r6 13r45
+X 6 a-numeri.ads
+16K13*Numerics 32e17 16|13r10 13r49
+X 7 a-nuelfu.ads
+18K22*Elementary_Functions[8|39] 16|13w19 13r58
+X 8 a-ngelfu.ads
+52V13*Sqrt{float} 16|93s33[7|18]
+X 10 a-string.ads
+16K13*Strings 35e16 16|12r10 12r49
+X 11 a-strfix.ads
+18K21*Fixed 251e22 16|12w18 12r57
+54V13*Index{natural} 16|37s29 50s29
+57i7 From{positive} 16|37r48 50r48
+X 14 a-textio.ads
+49K13*Text_IO 471e16 16|11w10 11r49
+52P9*File_Type 16|23r22
+53n23*In_File{53E9} 16|29r43
+92U14*Open 16|29s9
+93p7 File{52P9} 16|29r15
+94e7 Mode{53E9} 16|29r35
+95a7 Name{string} 16|29r52
+98U14*Close 16|60s9 64s17
+107V13*Is_Open{boolean} 16|63s16
+253V13*Get_Line{string} 16|31s31 32s31
+297X4*End_Error 16|62r14
+X 16 correlation_fi.adb
+16U11*Correlation_FI 16b11 105t4
+18A10 Float_Array(float)<integer> 19r16 20r16 68r56
+19a5 Sample_X{18A10} 40m17 45m13 101r37
+20a5 Sample_Y{18A10} 53m17 58m13 101r47
+22U15 Read_File 22b15 66t8 100s9
+23p9 Input_File{14|52P9} 29m23 29r23 31r41 32r41 60m16 60r16 63r24 64m24
+. 64r24
+24i9 Start{integer} 35m13 37r56 39r46 41m17 44r42 48m13 50r56 52r46 54m17
+. 57r42
+25i9 Location{integer} 37m17 38r27 39r53 41r26 50m17 51r27 52r53 54r26
+26f9 Value{float} 39m17 40r41 44m13 45r37 52m17 53r41 57m13 58r37
+27i9 Arr_Index{integer} 34m13 40r27 42m17 42r30 45r23 47m13 53r27 55m17 55r30
+. 58r23
+31a13 Line1{string} 35r22 37r36 39r39 44r35 44r49
+32a13 Line2{string} 48r22 50r36 52r39 57r35 57r49
+68V14 Calc_Coefficient{float} 68b14 68>32 68>42 95t8 101s19
+68a32 Sample_X{18A10} 74r18 74r34 75r30 77r32 84r18 84r34 85r34 88r18 88r34
+. 89r46 89r71
+68a42 Sample_Y{18A10} 79r18 79r34 80r30 82r32 85r59 90r46 90r71
+69f9 Coefficient{float} 93m9 94r16
+70f9 Sum_X{float} 75m13 75r22 77r18
+70f16 Sum_Y{float} 80m13 80r22 82r18
+70f23 Sum_XY{float} 85m13 85r23 93r24
+71f9 Square_Sum_X{float} 89m13 89r29 93r39
+71f23 Square_Sum_Y{float} 90m13 90r29 93r54
+72f9 Avg_X{float} 77m9 85r49 89r61 89r86
+72f16 Avg_Y{float} 82m9 85r74 90r61 90r86
+74i13 I{integer} 75r40
+79i13 I{integer} 80r40
+84i13 I{integer} 85r44 85r69
+88i13 I{integer} 89r56 89r81 90r56 90r81
+97f5 Result{float} 101m9
+

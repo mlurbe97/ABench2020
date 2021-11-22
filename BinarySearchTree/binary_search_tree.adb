@@ -77,9 +77,10 @@ procedure Binary_Search_Tree is
         333, 338, 350, 399, 442, 475, 567);
 
 begin
-
-    for I in Node_Array'Range loop
-        Insert (Node_Array (I));
+    loop
+        for I in Node_Array'Range loop
+            Insert (Node_Array (I));
+        end loop;
     end loop;
 
     Traverse (Root_Node);

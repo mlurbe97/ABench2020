@@ -1,0 +1,26 @@
+V "GNAT Lib v8"
+M P W=b
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV SPARK_05
+
+U softmax%b		softmax.adb		eef244ab NE OO SU
+Z system.exn_llf%s	s-exnllf.adb		s-exnllf.ali
+
+D softmax.adb		20211117155746 eef244ab softmax%b
+D system.ads		20200304083000 4635ec04 system%s
+D s-exnllf.ads		20200304083000 bc7ebbdc system.exn_llf%s
+X 1 softmax.adb
+15U11*Softmax 15b11 46t4
+17A10 Vector(integer)<integer> 21r42 34r14
+18a5 Result(float) 29m13
+19N5 Exp 25r45 29r28
+21U15 Calculate_Softmax 21b15 21>34 31t8 38s9
+21a34 Sample{17A10} 24r18 25r52 28r18 29r35
+22f9 Denonminator{float} 25m13 25r29 29r49
+24i13 I{integer} 25r60
+28i13 I{integer} 29r21 29r43
+34a5 Sample{17A10} 38r28 39m9
+
